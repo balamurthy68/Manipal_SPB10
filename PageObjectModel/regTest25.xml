@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="SanityPages">
+<classes>
+	<!--  <class name="com.selenium.tests.sanity_Login" />
+	<class name="com.selenium.tests.LoginScenarios" />
+	<class name="com.selenium.tests.NewTest" />
+	
+	-->
+	<class name="com.selenium.tests.DataProviderExample" />
+</classes>
+</test>
+</suite>
+<!-- Suite -->

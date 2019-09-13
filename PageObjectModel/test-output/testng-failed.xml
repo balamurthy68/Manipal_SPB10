@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="mySaturdayTests(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.selenium.tests.testRegExp">
+        <methods>
+          <include name="testRegExpFn"/>
+        </methods>
+      </class> <!-- com.selenium.tests.testRegExp -->
+    </classes>
+  </test> <!-- mySaturdayTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
